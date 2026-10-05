@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>rclone-dissertation privacy policy</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1b2532; --muted:#5d6878; --line:#d8dee2; --accent:#005B82; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12171d; --fg:#e2e7ee; --muted:#9aa6b6; --line:#2b3644; --accent:#64CCC9; } }
+  body { background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,"Segoe UI","Noto Sans KR",sans-serif; margin:0; }
+  main { max-width:44rem; margin:0 auto; padding-block:3rem 4rem; padding-inline:1rem; }
+  h1 { font-size:1.6rem; margin:0 0 .25rem; }
+  h2 { font-size:1.1rem; margin:2rem 0 .5rem; }
+  .muted { color:var(--muted); }
+  a { color:var(--accent); }
+  code { font-size:.92em; overflow-wrap:anywhere; }
+  hr { border:0; border-top:1px solid var(--line); margin:2rem 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="muted">rclone-dissertation · effective 6 October 2026</p>
+
+  <h2>Scope</h2>
+  <p>This policy covers the OAuth client "rclone-dissertation", used with the open-source tool <a href="https://rclone.org/">rclone</a>
+  by its owner, Sangwook Joo, to back up the owner's dissertation materials to the owner's Google Drive. The app has no users other than the owner.</p>
+
+  <h2>Google data the app accesses</h2>
+  <p>The app requests the Google Drive scope <code>https://www.googleapis.com/auth/drive</code>. With it, rclone lists, uploads and updates
+  files in the owner's own Google Drive folders that hold the backup. It does not access Gmail, Contacts, Calendar or any other Google service.</p>
+
+  <h2>How the data is used</h2>
+  <ul>
+    <li>Files are copied from the owner's research computer to the owner's Google Drive, and folder listings are read to decide which files need copying.</li>
+    <li>No data is collected, stored or processed by anyone other than the owner. There is no server, database, analytics or advertising behind this app.</li>
+    <li>No Google user data is sold, shared with third parties, or used to train AI or machine-learning models.</li>
+  </ul>
+
+  <h2>Storage and security</h2>
+  <p>The OAuth access token is stored only in the rclone configuration file on the owner's own computer, readable only by the owner's account.
+  Access can be withdrawn at any time from the Google Account page under "Third-party apps with account access".</p>
+
+  <h2>Compliance</h2>
+  <p>The app's use of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  including the Limited Use requirements.</p>
+
+  <h2>Changes and contact</h2>
+  <p>Any change to this policy will be posted on this page with a new effective date. Questions: Sangwook Joo — jupiterpen@gmail.com</p>
+
+  <hr>
+  <p lang="ko"><strong>한국어 요약</strong> — 이 앱은 Google Drive 권한(<code>auth/drive</code>)으로 소유자 본인의 Drive 백업 폴더만 나열·업로드·갱신합니다.
+  다른 Google 서비스에는 접근하지 않고, 어떤 데이터도 수집·제3자 제공·판매하거나 AI 학습에 쓰지 않습니다. 인증 토큰은 소유자 컴퓨터의 rclone 설정 파일에만 저장되며,
+  Google 계정의 「계정에 액세스할 수 있는 서드 파티 앱」에서 언제든 권한을 철회할 수 있습니다.</p>
+
+  <p><a href="./">Home</a></p>
+</main>
+</body>
+</html>

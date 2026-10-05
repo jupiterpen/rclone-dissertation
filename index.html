@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>rclone-dissertation</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1b2532; --muted:#5d6878; --line:#d8dee2; --accent:#005B82; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12171d; --fg:#e2e7ee; --muted:#9aa6b6; --line:#2b3644; --accent:#64CCC9; } }
+  body { background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,"Segoe UI","Noto Sans KR",sans-serif; margin:0; }
+  main { max-width:44rem; margin:0 auto; padding-block:3rem 4rem; padding-inline:1rem; }
+  h1 { font-size:1.6rem; margin:0 0 .25rem; }
+  h2 { font-size:1.1rem; margin:2rem 0 .5rem; }
+  p, li { color:var(--fg); }
+  .muted { color:var(--muted); }
+  a { color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--line); margin:2rem 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>rclone-dissertation</h1>
+  <p class="muted">A private backup client for one researcher's own Google Drive</p>
+
+  <h2>What this app is</h2>
+  <p>rclone-dissertation is the name of an OAuth client used by <a href="https://rclone.org/">rclone</a>, an open-source file synchronisation tool.
+  It is run by a single researcher, Sangwook Joo, to copy the owner's doctoral dissertation materials (manuscripts, figures, documents and
+  experiment records) from the owner's research computer to the owner's Google Drive.</p>
+
+  <h2>Who uses it</h2>
+  <p>Only the owner. The app is not offered to the public, has no other users, and does not sign anyone else in.</p>
+
+  <h2>What it does with Google Drive</h2>
+  <ul>
+    <li>Uploads and updates files in the owner's own Google Drive folders.</li>
+    <li>Lists those folders to check which files are already there.</li>
+    <li>Does not read, collect, analyse or share anyone else's data.</li>
+  </ul>
+
+  <h2>Policies</h2>
+  <p><a href="privacy.html">Privacy policy</a></p>
+
+  <hr>
+  <p class="muted">Contact: Sangwook Joo — jupiterpen@gmail.com</p>
+
+  <hr>
+  <p lang="ko"><strong>한국어 요약</strong> — rclone-dissertation은 연구자 주상욱 본인이 자신의 박사학위논문 자료를 자신의 Google Drive에 백업하기 위해
+  오픈소스 도구 rclone에 쓰는 OAuth 클라이언트입니다. 사용자는 본인 한 명뿐이며, 다른 사람의 데이터를 읽거나 수집·공유하지 않습니다.
+  <a href="privacy.html">개인정보 처리방침</a></p>
+</main>
+</body>
+</html>
